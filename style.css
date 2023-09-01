@@ -8,7 +8,7 @@ header {
 
 #profile-picture {
     border: 2px solid;
-    max-width: 25%;
+    max-width: 40%;
     max-height:15%;
     width: 480px;
     height: 480px;
@@ -20,4 +20,16 @@ header {
     padding-left: 20px;
     padding-top: 20%;
     float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-span {
+    position:absolute;
+    bottom:0;
+    height:60px;   /* Height of the footer */
+}
+
+.social-icon {
+    max-width: 10%;
+    max-height:10%;
 }
