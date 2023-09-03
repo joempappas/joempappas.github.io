@@ -1,3 +1,8 @@
+#page-container {
+    max-width: 100%;
+    margin: auto;
+}
+
 header {
     min-height: 40px;
     text-align: center;
@@ -5,6 +10,13 @@ header {
     font-style: bold;
     font-variant: small-caps;
 }
+
+#about a {
+    margin-right: 10px; 
+    text-decoration: none; 
+    color: #50b3a2; 
+}
+
 
 #profile-picture {
     border: 2px solid;
@@ -19,17 +31,45 @@ header {
     font-size: 20px;
     padding-left: 20px;
     padding-top: 20%;
-    float: left;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Georgia", serif; 
+    font-size: 18px;
 }
 
 .bottom-span {
     position:absolute;
     bottom:0;
-    height:60px;   /* Height of the footer */
+    height:60px;   
 }
 
 .social-icon {
     max-width: 10%;
     max-height:10%;
 }
+
+#work-samples {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.sample img {
+    max-width: 100%; 
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.sample ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    font-family: "Georgia", serif; 
+    font-size: 16px;
+    line-height: 1.5; 
+    display: flex; 
+    align-items: center; 
+}
+
+
+
+
