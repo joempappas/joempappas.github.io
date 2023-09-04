@@ -11,6 +11,10 @@ header {
     font-variant: small-caps;
 }
 
+#about {
+    display:inline-block;
+}
+
 #about a {
     margin-right: 10px; 
     text-decoration: none; 
@@ -24,6 +28,7 @@ header {
     max-height:15%;
     width: 480px;
     height: 480px;
+    display:flex;
     float: left;
 }
 
@@ -33,43 +38,53 @@ header {
     padding-top: 20%;
     font-family: "Georgia", serif; 
     font-size: 18px;
+    float: bottom;
+    text-align: center;
 }
 
-.bottom-span {
-    position:absolute;
-    bottom:0;
-    height:60px;   
-}
 
 .social-icon {
-    max-width: 10%;
-    max-height:10%;
+    max-width: 5%;
+    max-height:5%;
+}
+
+.work-header {
+    font-size:20px;
+    width:100%
+}
+
+.sample-image {
+    max-width: 100px;
+    max-height: 100%;
 }
 
 #work-samples {
     display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
-    gap: 20px; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.sample img {
-    max-width: 100%; 
-    display: block; 
-    margin-bottom: 10px; 
+.work-title {
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
 }
 
-.sample ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    font-family: "Georgia", serif; 
-    font-size: 16px;
-    line-height: 1.5; 
-    display: flex; 
-    align-items: center; 
+.sample {
+    display: flex;  
+    align-items: center;   
+    padding: 10px;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    width: 100%; 
 }
 
 
-
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: 14px;
+}
 
