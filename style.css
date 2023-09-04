@@ -71,6 +71,13 @@ header {
     font-size:20px;
     font-weight: bold;
 }
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
 
 .sample {
     display: flex;  
@@ -78,6 +85,8 @@ header {
     padding: 10px;   
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
     width: 100%; 
+    font-family: Georgia, serif;
+    font-size: 15px;
 }
 
 
